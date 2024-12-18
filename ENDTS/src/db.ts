@@ -1,6 +1,6 @@
 import mongoose, {model, Schema} from "mongoose";
 
-mongoose.connect("mongodb+srv://dadwalabhishek10:fy3BsTyCdVaH8Wcq@cluster0.vh6s6.mongodb.net/second-brain?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect(MONGODBURL)
 
 
 const userSchema = new Schema({
